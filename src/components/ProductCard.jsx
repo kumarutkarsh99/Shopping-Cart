@@ -26,8 +26,8 @@ export default function ProductCard({ product }) {
       />
       </div>
       <h3>{product.name}</h3>
+      <p className='category-pro'>{product.category}</p>
       <p>₹{product.price.toFixed(2)}</p>
-      <p>Category: {product.category}</p>
       <p>Available: {product.quantity}</p>
       <button className='add-button' onClick={onAdd} disabled={product.quantity <= 0}>
         {product.quantity > 0 ? 'Add to Cart' : 'Out of Stock'}
