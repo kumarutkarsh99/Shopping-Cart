@@ -147,7 +147,6 @@ body {
 
 .category-pro{
   justify-self: center;
-  background-color: #fff;
   border-radius: 8px;
   color: #007bff !important;
   padding: 0.2rem 1rem;
@@ -416,5 +415,5 @@ button:hover:enabled {
 .add-button {
   width: 100%;
   font-size: medium;
-  font-style: normal;
+  font-weight: lighter !important; 
 }
