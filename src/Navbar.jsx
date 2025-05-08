@@ -4,19 +4,21 @@ import { NavLink } from 'react-router-dom';
 const ShopCart = () => {
   return (
     <nav className="nav" >
-              <NavLink
+      <div className='navdiv'>
+        <NavLink
                 to="/products"
-                className={({ isActive }) => (isActive ? 'active' : '')}
-              >
+                className={({ isActive }) => (isActive ? 'active' : 'not-active')}
+        >
                 Products
-              </NavLink>
-              <NavLink
+        </NavLink>
+        <NavLink
                 to="/cart"
-                className={({ isActive }) => (isActive ? 'active' : '')}
-              >
-                Cart
-              </NavLink>
-              </nav>
+                className={({ isActive }) => (isActive ? 'active' : 'not-active')}
+        >
+          Cart
+        </NavLink>
+      </div>
+    </nav>
   );
 };
 

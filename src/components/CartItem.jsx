@@ -36,14 +36,14 @@ export default function CartItem({ item }) {
               +
             </button>
           </div>
+          <button 
+            className="remove-btn" 
+            aria-label={`Remove ${item.name} from cart`} 
+            onClick={() => removeFromCart(item.id)}>
+              Remove
+          </button>
         </div>
         </div>
-        <button 
-        className="remove-btn" 
-        aria-label={`Remove ${item.name} from cart`} 
-        onClick={() => removeFromCart(item.id)}>
-          Remove
-        </button>
     </div>
   );
 }
