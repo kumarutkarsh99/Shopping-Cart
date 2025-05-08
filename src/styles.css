@@ -90,8 +90,7 @@ body {
 }
 
 .card {
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color: #f9f9f9;
   border-radius: 12px;
   padding: 1rem;
   width: 250px;
