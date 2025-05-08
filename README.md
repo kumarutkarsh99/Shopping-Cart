@@ -29,13 +29,9 @@ This is a responsive and functional ecommerce frontend built using **React**, **
 ```bash
 git clone https://github.com/your-username/react-ecommerce-frontend.git
 cd react-ecommerce-frontend
-```
-
 npm install
-
-```
-
 npm run rev
+```
 
 ## State Management
 
