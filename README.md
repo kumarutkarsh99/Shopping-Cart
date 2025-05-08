@@ -42,5 +42,4 @@ This app uses two main context providers:
 
 
 ```
-
 Made with ❤️ by Kumar Utkarsh
