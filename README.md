@@ -1,4 +1,4 @@
-# 🛍️ React Cart Frontend
+# React Cart Frontend
 
 This is a responsive and functional ecommerce frontend built using **React**, **Context API**, **Material UI**, and **localStorage**. It allows users to browse products, filter and search items, manage a shopping cart, and simulate checkout functionality with persistent state.
 
