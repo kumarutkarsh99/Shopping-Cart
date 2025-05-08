@@ -24,11 +24,11 @@ This is a responsive and functional ecommerce frontend built using **React**, **
 
 ---
 
-## Getting Started
+## SetUp
 
 ```bash
-git clone https://github.com/kumarutkarsh99/react-ecommerce-frontend.git
-cd react-ecommerce-frontend
+git clone https://github.com/kumarutkarsh99/Shopping-Cart.git
+cd Shopping-Cart
 npm install
 npm run dev
 ```
