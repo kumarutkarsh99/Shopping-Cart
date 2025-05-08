@@ -27,18 +27,18 @@ This is a responsive and functional ecommerce frontend built using **React**, **
 ## Getting Started
 
 ```bash
-git clone https://github.com/your-username/react-ecommerce-frontend.git
+git clone https://github.com/kumarutkarsh99/react-ecommerce-frontend.git
 cd react-ecommerce-frontend
 npm install
-npm run rev
+npm run dev
 ```
 
 ## State Management
 
 This app uses two main context providers:
-CartContext – Manages cart items, quantities, and checkout logic.
-ProductContext – Manages product inventory, filtering, and search.
-All state changes are persisted using localStorage so data remains after page reloads.
+- CartContext – Manages cart items, quantities, and checkout logic.
+- ProductContext – Manages product inventory, filtering, and search.
+- All state changes are persisted using localStorage so data remains after page reloads.
 
 
 ```
